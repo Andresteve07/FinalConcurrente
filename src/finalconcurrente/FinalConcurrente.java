@@ -20,10 +20,12 @@ public class FinalConcurrente {
         PanelControl panel=new PanelControl();
         VentanaPanel ventana = new VentanaPanel("Panel de control de Simulación de Celda Flexible",panel);
         ventana.mostrar();
-        Monitor monitor=new Monitor("matrizIncidencia.txt","marcaInicial.txt");
-        Proceso p1 = new Proceso("Proceso_1",monitor,panel);
-        Proceso p2 = new Proceso("Proceso_2",monitor,panel);
-        Proceso p3 = new Proceso("Proceso_3",monitor,panel);
+        Monitor monitor=new Monitor("matrizIncidenciaPrevia.txt","matrizIncidenciaPosterior.txt","marcaInicial.txt",panel);
+        Proceso p1 = new Proceso("Proceso_1",monitor);
+        Proceso p2 = new Proceso("Proceso_2",monitor);
+        Proceso p3 = new Proceso("Proceso_3",monitor);
+        Actualizador refrescoPanel = new Actualizador(monitor);
+        refrescoPanel.start();
         p1.start();
         p2.start();
         p3.start();

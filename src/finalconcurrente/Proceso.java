@@ -17,16 +17,13 @@ public class Proceso extends Thread{
     final private String id;
     final private DoubleMatrix transiciones;
     final private Monitor monitor;
-    final private PanelControl panel;
-    private DoubleMatrix marcaConseguida;
+    private DoubleMatrix disparoConseguido;
     
-    public Proceso(String id, Monitor monitor, PanelControl panel){
+    public Proceso(String id, Monitor monitor){
         this.id=id;
         this.transiciones=this.leer_transiciones();
-        System.out.println(transiciones);
         this.monitor=monitor;
-        this.panel=panel;
-        this.marcaConseguida = null;
+        this.disparoConseguido = null;
     }
     
     public final DoubleMatrix leer_transiciones(){
@@ -70,12 +67,11 @@ public class Proceso extends Thread{
         super.run();
         while(true){
             try{
-                marcaConseguida=monitor.solicitarDisparo(transiciones);
+                disparoConseguido=monitor.adquirirRecurso(transiciones);
                 //dispAutorizado=monitor.solicitarDisparo(transiciones);
-                System.out.println(this.getName()+" --> Actualiza Panel de Control con:\n"+marcaConseguida);
+                System.out.println(this.getName()+" --> Actualiza La Marca con:\n"+disparoConseguido);
                 Thread.sleep(1500);
-                this.panel.actualizar(marcaConseguida);
-                
+                monitor.devolverRecurso(disparoConseguido);
             }
            catch(InterruptedException e){
                e.getLocalizedMessage();
