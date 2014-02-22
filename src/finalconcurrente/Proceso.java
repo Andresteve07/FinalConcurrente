@@ -70,7 +70,7 @@ public class Proceso extends Thread{
     }
     public void comunicar(DoubleMatrix marcaConseguida) {
             try {
-                    socket = new Socket(id, 4445);
+                    socket = new Socket("localHost", 4445);
                     System.out.println(this.id+" conectado.");
                     //isConnected = true;
                     flujoSalida = new ObjectOutputStream(socket.getOutputStream());

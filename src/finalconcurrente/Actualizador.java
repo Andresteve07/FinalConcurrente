@@ -24,7 +24,7 @@ public class Actualizador extends Thread{
     private ObjectInputStream flujoEntrada = null;
     public Actualizador(PanelControl panel) throws IOException{
         this.panel=panel;
-        this.socketServidor=new ServerSocket(4455);
+        this.socketServidor=new ServerSocket(4445);
     }
     public void comunicar(){
         try{
@@ -47,6 +47,7 @@ public class Actualizador extends Thread{
                 cn.printStackTrace();
         }
     }
+    @Override
     public void run(){
         super.run();
         this.comunicar();
