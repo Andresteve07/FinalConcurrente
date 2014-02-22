@@ -6,6 +6,10 @@
 
 package finalconcurrente;
 
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  *
  * @author steve07-ultra
@@ -21,9 +25,16 @@ public class FinalConcurrente {
         VentanaPanel ventana = new VentanaPanel("Panel de control de Simulación de Celda Flexible",panel);
         ventana.mostrar();
         Monitor monitor=new Monitor("matrizIncidencia.txt","marcaInicial.txt");
-        Proceso p1 = new Proceso("Proceso_1",monitor,panel);
-        Proceso p2 = new Proceso("Proceso_2",monitor,panel);
-        Proceso p3 = new Proceso("Proceso_3",monitor,panel);
+        Proceso p1 = new Proceso("Proceso_1",monitor);
+        Proceso p2 = new Proceso("Proceso_2",monitor);
+        Proceso p3 = new Proceso("Proceso_3",monitor);
+        Actualizador actualizador;
+        try {
+            actualizador = new Actualizador(panel);
+            actualizador.start();
+        } catch (IOException ex) {
+            Logger.getLogger(FinalConcurrente.class.getName()).log(Level.SEVERE, null, ex);
+        }
         p1.start();
         p2.start();
         p3.start();

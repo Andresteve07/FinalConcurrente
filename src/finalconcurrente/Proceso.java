@@ -7,6 +7,9 @@ package finalconcurrente;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.net.Socket;
+import java.net.SocketException;
 import org.jblas.DoubleMatrix;
 
 /**
@@ -17,15 +20,16 @@ public class Proceso extends Thread{
     final private String id;
     final private DoubleMatrix transiciones;
     final private Monitor monitor;
-    final private PanelControl panel;
     private DoubleMatrix marcaConseguida;
     
-    public Proceso(String id, Monitor monitor, PanelControl panel){
+    private Socket socket = null;
+    private ObjectOutputStream flujoSalida = null;
+    
+    public Proceso(String id, Monitor monitor){
         this.id=id;
         this.transiciones=this.leer_transiciones();
         System.out.println(transiciones);
         this.monitor=monitor;
-        this.panel=panel;
         this.marcaConseguida = null;
     }
     
@@ -64,7 +68,21 @@ public class Proceso extends Thread{
         }
         return new DoubleMatrix(trans) ;
     }
-    
+    public void comunicar(DoubleMatrix marcaConseguida) {
+            try {
+                    socket = new Socket(id, 4445);
+                    System.out.println(this.id+" conectado.");
+                    //isConnected = true;
+                    flujoSalida = new ObjectOutputStream(socket.getOutputStream());
+                    flujoSalida.writeObject(marcaConseguida);
+                    socket.close();
+            } catch (SocketException se) {
+                System.out.println(se.getMessage());
+                // System.exit(0);
+            } catch (IOException e) {
+                System.out.println(e.getMessage());
+            }
+    }
     @Override
     public void run(){
         super.run();
@@ -74,7 +92,7 @@ public class Proceso extends Thread{
                 //dispAutorizado=monitor.solicitarDisparo(transiciones);
                 System.out.println(this.getName()+" --> Actualiza Panel de Control con:\n"+marcaConseguida);
                 Thread.sleep(1500);
-                this.panel.actualizar(marcaConseguida);
+                this.comunicar(marcaConseguida);
                 
             }
            catch(InterruptedException e){
