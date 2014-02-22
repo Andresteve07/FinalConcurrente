@@ -166,6 +166,7 @@ public class Monitor {
             System.out.println("Hago signalAll() soy"+Thread.currentThread().getName());
             this.cantDisp++;
             System.out.println(cantDisp);
+            cambioMarca.signal();
             ejecucionDisp.signalAll();//Se notifica el cambio de marca ya que este puede haber habilitado otros disparos para este u otros procesos.
             return disparoPermitido;
         }
