@@ -91,7 +91,7 @@ public class Proceso extends Thread{
                 marcaConseguida=monitor.solicitarDisparo(transiciones);
                 //dispAutorizado=monitor.solicitarDisparo(transiciones);
                 System.out.println(this.getName()+" --> Actualiza Panel de Control con:\n"+marcaConseguida);
-                Thread.sleep(1500);
+                Thread.sleep(2000);
                 this.comunicar(marcaConseguida);
                 
             }
