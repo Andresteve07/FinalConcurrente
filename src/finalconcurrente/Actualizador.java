@@ -11,6 +11,8 @@ import java.io.ObjectInputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.jblas.DoubleMatrix;
 
 /**
@@ -30,26 +32,27 @@ public class Actualizador extends Thread{
         try{
             while(true){
                     socket = socketServidor.accept();
-                    System.out.println("Actualizador Conectado");
+                    //System.out.println("Actualizador Conectado");
                     flujoEntrada = new ObjectInputStream(socket.getInputStream());
 
                     DoubleMatrix matriz= (DoubleMatrix) flujoEntrada.readObject();
-                    System.out.println("Nueva marca recibida = " + matriz);
+                    //System.out.println("Nueva marca recibida =\n" + matriz);
+                    //System.out.println("Nueva marca recibida =\n" + matriz.get(22,0));
                     panel.actualizar(matriz);
                     socket.close();
                 }
         }
-        catch (SocketException se) {
-                System.exit(0);
-        } catch (IOException e) {
-                e.printStackTrace();
-        } catch (ClassNotFoundException cn) {
-                cn.printStackTrace();
+        catch (SocketException sExc) {
+            Logger.getLogger(FinalConcurrente.class.getName()).log(Level.SEVERE, null, sExc);    
+            System.exit(0);
+                
+        } catch (IOException | ClassNotFoundException exc) {
+                Logger.getLogger(FinalConcurrente.class.getName()).log(Level.SEVERE, null, exc);
         }
     }
     @Override
     public void run(){
-        super.run();
+        //super.run();
         this.comunicar();
     }
 }

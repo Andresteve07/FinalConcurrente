@@ -1,0 +1,17 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{2}
+\contentsline {section}{\numberline {2}Consigna}{2}
+\contentsline {section}{\numberline {3}Red de Petri}{4}
+\contentsline {section}{\numberline {4}Clases}{5}
+\contentsline {subsubsection}{\numberline {4.0.1}Administrador}{6}
+\contentsline {subsubsection}{\numberline {4.0.2}Arco}{7}
+\contentsline {subsubsection}{\numberline {4.0.3}Biblioteca\_paquetes}{7}
+\contentsline {subsubsection}{\numberline {4.0.4}Computadora}{7}
+\contentsline {subsubsection}{\numberline {4.0.5}Conexion}{7}
+\contentsline {subsubsection}{\numberline {4.0.6}Etiqueta}{7}
+\contentsline {subsubsection}{\numberline {4.0.7}Pagina}{7}
+\contentsline {subsubsection}{\numberline {4.0.8}Paquete}{8}
+\contentsline {subsubsection}{\numberline {4.0.9}Router}{8}
+\contentsline {section}{\numberline {5}Segunda Fase: Implementaci\IeC {\'o}n del Algoritmo}{8}
+\contentsline {section}{\numberline {6}Tercera Fase: Pruebas}{10}
+\contentsline {section}{\numberline {7}Conclusion}{15}

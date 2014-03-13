@@ -1,0 +1,194 @@
+\newpage
+\newgeometry{left=1cm,right=1cm,bottom=3cm,top=2cm}
+\begin{adjustbox}{width=\linewidth}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c||c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline 
+\multicolumn{22}{|c||}{DISPAROS EJECUTADOS} & \multicolumn{31}{|c|}{MARCAS CONSEGUIDAS} \tabularnewline
+\hline
+       & T0 & T1 & T10 & T11 & T12 & T13 & T14 & T17 & T18 & T19 & T2 & T20 & T21 & T22 & T3 & T4 & T5 & T6 & T7 & T8 & T9 & m1 & m2 & m3 & m4 & P0 & P1 & P10 & P11 & P12 & P14 & P15 & P16 & P17 & P18 & P19 & P2 & P20 & P21 & P27 & P28 & P29 & P3 & P30 & P4 & P5 & P7 & P8 & P9 & r1 & r2 & r3 \tabularnewline
+\hline
+\hline
+Proceso1 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 2 & 2 & 2 & \cellcolor{yellow} 4 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 5 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 3 & 0 & 0 & 0 & 0 & 0 & 0 & 5 & 0 & 0 & \cellcolor{yellow} 0 & 1 & 1 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 2 & 2 & \cellcolor{yellow} 1 & 4 & 1 & 0 & 0 & 0 & \cellcolor{yellow} 4 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 2 & 0 & 0 & 0 & 0 & 0 & 0 & 5 & 0 & 0 & 0 & 1 & \cellcolor{yellow} 0 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 1 & 2 & \cellcolor{yellow} 1 & 1 & 4 & 1 & 0 & 0 & 0 & 4 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 4 & \cellcolor{yellow} 1 & 0 & 0 & \cellcolor{yellow} 0 & 0 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 2 & 1 & 1 & 4 & 1 & 0 & 0 & 0 & 4 & 0 & 0 & \cellcolor{yellow} 1 & \cellcolor{yellow} 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 4 & 1 & 0 & 0 & 0 & \cellcolor{yellow} 1 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 1 & 2 & 1 & 1 & 4 & 1 & 0 & 0 & 0 & 4 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 4 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 0 & \cellcolor{yellow} 1 & 1 \tabularnewline
+\hline
+Proceso1 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 2 & 1 & 1 & 4 & \cellcolor{yellow} 0 & 0 & 0 & 0 & 4 & 0 & 0 & 1 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 4 & 0 & 1 & \cellcolor{yellow} 1 & 1 & 1 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 2 & \cellcolor{yellow} 0 & \cellcolor{yellow} 2 & 4 & 0 & 0 & 0 & 0 & 4 & 0 & 0 & \cellcolor{yellow} 0 & 0 & \cellcolor{yellow} 1 & 1 & 0 & 0 & \cellcolor{yellow} 2 & 0 & 0 & 0 & 0 & 0 & 0 & 4 & 0 & 1 & 1 & \cellcolor{yellow} 0 & 1 \tabularnewline
+\hline
+Proceso1 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 0 & 2 & 0 & 2 & \cellcolor{yellow} 3 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 4 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 2 & 0 & 0 & 0 & 0 & 0 & 0 & 4 & 0 & 1 & \cellcolor{yellow} 0 & 0 & 1 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 2 & 3 & 1 & 0 & 0 & 0 & \cellcolor{yellow} 3 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 2 & 0 & 0 & 0 & 0 & 0 & 0 & 4 & 0 & 1 & 0 & 0 & \cellcolor{yellow} 0 \tabularnewline
+\hline
+Proceso1 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 2 & 3 & \cellcolor{yellow} 0 & 0 & 0 & 0 & 3 & 1 & 0 & 0 & 0 & 1 & \cellcolor{yellow} 2 & 0 & 0 & 2 & 0 & 0 & 0 & 0 & 0 & 0 & 4 & 0 & 1 & \cellcolor{yellow} 1 & 0 & 0 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 2 & 3 & 0 & 0 & 0 & 0 & 3 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 0 & 0 & 1 & 2 & 0 & 0 & 2 & 0 & 0 & 0 & 0 & 0 & 0 & 4 & 0 & 1 & 1 & 0 & \cellcolor{yellow} 1 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 2 & 3 & 0 & 0 & 0 & 0 & 3 & 0 & 1 & 0 & 0 & \cellcolor{yellow} 0 & 2 & \cellcolor{yellow} 1 & 0 & 2 & 0 & 0 & 0 & 0 & 0 & 0 & 4 & 0 & 1 & 1 & \cellcolor{yellow} 1 & 1 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 1 & \cellcolor{yellow} 1 & \cellcolor{yellow} 1 & 3 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 3 & 0 & 1 & 0 & 0 & 0 & 2 & 1 & 0 & \cellcolor{yellow} 3 & 0 & 0 & 0 & 0 & 0 & 0 & 4 & 0 & \cellcolor{yellow} 0 & 1 & \cellcolor{yellow} 0 & 1 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 0 & 1 & 1 & 3 & 0 & 1 & 0 & 0 & \cellcolor{yellow} 2 & \cellcolor{yellow} 1 & 1 & 0 & 0 & 0 & 2 & 1 & 0 & 3 & 0 & 0 & 0 & 0 & 0 & 0 & 4 & 0 & 0 & 1 & 0 & \cellcolor{yellow} 0 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 1 & 1 & 3 & 0 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 0 & 2 & 1 & 1 & 0 & 0 & 0 & 2 & 1 & 0 & 3 & 0 & 0 & 0 & 0 & 0 & 0 & 4 & 0 & 0 & 1 & \cellcolor{yellow} 1 & 0 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & \cellcolor{yellow} 0 & 1 & 3 & 0 & 0 & 1 & 0 & 2 & 1 & \cellcolor{yellow} 0 & 0 & 0 & \cellcolor{yellow} 1 & 2 & 1 & 0 & 3 & 0 & 0 & 0 & 0 & 0 & 0 & 4 & 0 & 0 & 1 & \cellcolor{yellow} 0 & 0 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 1 & 3 & 0 & 0 & 1 & 0 & 2 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 0 & 0 & 1 & 2 & 1 & 0 & 3 & 0 & 0 & 0 & 0 & 0 & 0 & 4 & 0 & 0 & 1 & 0 & \cellcolor{yellow} 1 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & \cellcolor{yellow} 2 & 3 & 0 & 0 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 2 & 0 & 1 & 0 & 0 & 1 & 2 & 1 & 0 & 3 & 0 & 0 & 0 & 0 & 0 & 0 & 4 & 0 & 0 & 1 & 0 & \cellcolor{yellow} 0 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 2 & 3 & 0 & 0 & 0 & \cellcolor{yellow} 0 & 2 & 0 & 1 & 0 & 0 & 1 & 2 & 1 & 0 & 3 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 4 & 0 & 0 & 1 & 0 & \cellcolor{yellow} 1 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & \cellcolor{yellow} 1 & 2 & 3 & 0 & 0 & 0 & 0 & 2 & 0 & 1 & 0 & 0 & 1 & 2 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 3 & 0 & 1 & 0 & 0 & 0 & 0 & 4 & 0 & 0 & \cellcolor{yellow} 0 & 0 & 1 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 2 & 3 & 0 & 0 & 0 & 0 & 2 & 0 & 1 & 0 & 0 & \cellcolor{yellow} 0 & 2 & \cellcolor{yellow} 1 & 1 & 3 & 0 & 1 & 0 & 0 & 0 & 0 & 4 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 1 \tabularnewline
+\hline
+Proceso1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & \cellcolor{yellow} 0 & 1 & 2 & 3 & 0 & 0 & 0 & 0 & 2 & 0 & 1 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 1 & 1 & 3 & 0 & 1 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 4 & 0 & 0 & 0 & \cellcolor{yellow} 0 & 1 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 1 & \cellcolor{yellow} 1 & 3 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 1 & 0 & \cellcolor{yellow} 1 & 0 & 1 & 1 & 1 & \cellcolor{yellow} 2 & 0 & 1 & 1 & 0 & 0 & 0 & 4 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 0 \tabularnewline
+\hline
+Proceso1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 1 & 1 & 3 & 0 & 0 & 0 & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 & 1 & 1 & 2 & 0 & 1 & \cellcolor{yellow} 0 & 0 & \cellcolor{yellow} 1 & 0 & 4 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 1 & 0 & \cellcolor{yellow} 0 & 1 & 3 & 0 & 0 & 0 & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 & 1 & 1 & \cellcolor{yellow} 1 & 0 & 1 & 0 & 0 & 1 & 0 & \cellcolor{yellow} 3 & \cellcolor{yellow} 1 & 0 & 0 & \cellcolor{yellow} 0 & 0 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 1 & 3 & 0 & 0 & 0 & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 & 1 & \cellcolor{yellow} 0 & 1 & 0 & 1 & 0 & \cellcolor{yellow} 1 & 1 & 0 & 3 & 1 & 0 & \cellcolor{yellow} 1 & 0 & 0 \tabularnewline
+\hline
+Proceso1 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 0 & 0 & 0 & 1 & \cellcolor{yellow} 2 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 & 1 & 0 & 1 & 0 & 1 & 0 & 1 & 1 & 0 & 3 & 1 & 0 & \cellcolor{yellow} 0 & 0 & 0 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 1 & 2 & 1 & 0 & 0 & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 & 1 & 0 & 1 & 0 & 1 & 0 & 1 & 1 & 0 & 3 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 0 & \cellcolor{yellow} 1 & 0 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 2 & 1 & 0 & 0 & 0 & 1 & 0 & 1 & \cellcolor{yellow} 1 & \cellcolor{yellow} 0 & 0 & 1 & 1 & 0 & 1 & 0 & 1 & 0 & 1 & 1 & 0 & 3 & 0 & 1 & 0 & 1 & \cellcolor{yellow} 1 \tabularnewline
+\hline
+Proceso1 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 2 & \cellcolor{yellow} 0 & 0 & 0 & 0 & 1 & 0 & 1 & 1 & 0 & 0 & \cellcolor{yellow} 2 & 1 & 0 & 1 & 0 & 1 & 0 & 1 & 1 & 0 & 3 & 0 & 1 & \cellcolor{yellow} 1 & 1 & 1 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & \cellcolor{yellow} 1 & \cellcolor{yellow} 0 & 2 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 1 & 0 & 1 & 1 & 0 & 0 & 2 & 1 & 0 & \cellcolor{yellow} 2 & 0 & 1 & 0 & 1 & 1 & 0 & 3 & 0 & \cellcolor{yellow} 0 & 1 & \cellcolor{yellow} 0 & 1 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 2 & 0 & 2 & 0 & 1 & 0 & 0 & 1 & 0 & 1 & 1 & 0 & 0 & 2 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 2 & 0 & 1 & 0 & 1 & 1 & 0 & 3 & 0 & 0 & \cellcolor{yellow} 0 & 0 & 1 \tabularnewline
+\hline
+Proceso1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 2 & 0 & 2 & 0 & 1 & 0 & 0 & 1 & 0 & 1 & 1 & 0 & 0 & 2 & 0 & 1 & 2 & 0 & 1 & 0 & 1 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 3 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 0 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 1 & 2 & 0 & 2 & 0 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 0 & 1 & 0 & 1 & 1 & 0 & 0 & 2 & 0 & 1 & 2 & 0 & 1 & 0 & 1 & 0 & 1 & 3 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 2 & \cellcolor{yellow} 1 & 0 & 2 & 0 & 0 & 1 & 0 & 1 & 0 & \cellcolor{yellow} 0 & 1 & 0 & \cellcolor{yellow} 1 & 2 & 0 & 1 & 2 & 0 & 1 & 0 & 1 & 0 & 1 & 3 & 0 & 0 & 0 & \cellcolor{yellow} 0 & 0 \tabularnewline
+\hline
+Proceso1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 2 & 1 & 0 & 2 & 0 & 0 & 1 & 0 & 1 & 0 & 0 & 1 & 0 & 1 & 2 & 0 & 1 & 2 & \cellcolor{yellow} 1 & 1 & 0 & 1 & 0 & \cellcolor{yellow} 0 & 3 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 2 & 1 & \cellcolor{yellow} 1 & 2 & 0 & 0 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 1 & 0 & 0 & 1 & 0 & 1 & 2 & 0 & 1 & 2 & 1 & 1 & 0 & 1 & 0 & 0 & 3 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 0 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 2 & 1 & 1 & 2 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 0 & \cellcolor{yellow} 0 & 2 & \cellcolor{yellow} 1 & 1 & 2 & 1 & 1 & 0 & 1 & 0 & 0 & 3 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 \tabularnewline
+\hline
+Proceso1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & \cellcolor{yellow} 1 & 1 & 1 & 2 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 0 & 0 & \cellcolor{yellow} 1 & 1 & 1 & 2 & 1 & 1 & \cellcolor{yellow} 1 & 1 & 0 & 0 & 3 & 0 & 0 & 0 & \cellcolor{yellow} 0 & 0 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 2 & 0 & 0 & 0 & \cellcolor{yellow} 0 & 1 & 0 & 0 & 1 & 0 & 0 & 1 & 1 & 1 & 2 & 1 & \cellcolor{yellow} 2 & 1 & 1 & 0 & 0 & 3 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 2 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 1 & 0 & 0 & 1 & 1 & \cellcolor{yellow} 0 & 2 & 1 & 2 & 1 & \cellcolor{yellow} 2 & 0 & 0 & 3 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 1 \tabularnewline
+\hline
+Proceso1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 2 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 1 & 0 & 0 & 1 & 1 & 0 & 2 & 1 & 2 & \cellcolor{yellow} 0 & 2 & \cellcolor{yellow} 1 & 0 & 3 & 0 & 0 & 1 & \cellcolor{yellow} 1 & 1 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 1 & 1 & \cellcolor{yellow} 0 & 1 & 2 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 1 & 0 & 0 & 1 & 1 & 0 & \cellcolor{yellow} 1 & 1 & 2 & 0 & 2 & 1 & 0 & \cellcolor{yellow} 2 & \cellcolor{yellow} 1 & 0 & 1 & \cellcolor{yellow} 0 & 1 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & \cellcolor{yellow} 0 & 0 & 1 & 2 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 0 & 1 & 0 & 0 & 1 & 1 & 0 & 1 & 1 & 2 & 0 & 2 & 1 & 0 & 2 & 1 & 0 & 1 & 0 & \cellcolor{yellow} 0 \tabularnewline
+\hline
+Proceso1 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 0 & 0 & 0 & 1 & \cellcolor{yellow} 1 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 1 & 0 & 1 & 0 & 0 & 1 & 1 & 0 & 1 & 1 & 2 & 0 & 2 & 1 & 0 & 2 & 1 & 0 & \cellcolor{yellow} 0 & 0 & 0 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & 0 & 1 & 0 & 0 & 1 & 1 & 0 & 1 & 1 & 2 & 0 & 2 & 1 & 0 & 2 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 0 & \cellcolor{yellow} 1 & 0 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 1 & 0 & 0 & 1 & 1 & 0 & 1 & 1 & 2 & 0 & 2 & 1 & 0 & 2 & 0 & 1 & 0 & 1 & \cellcolor{yellow} 1 \tabularnewline
+\hline
+Proceso1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 1 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 & 0 & 1 & 1 & 2 & 0 & 2 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 2 & 0 & 1 & 0 & 1 & \cellcolor{yellow} 0 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 1 & \cellcolor{yellow} 1 & \cellcolor{yellow} 0 & 1 & 1 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 & 0 & \cellcolor{yellow} 2 & 1 & 2 & 0 & 2 & 0 & 1 & 2 & 0 & \cellcolor{yellow} 0 & 0 & \cellcolor{yellow} 0 & 0 \tabularnewline
+\hline
+Proceso1 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & 1 & \cellcolor{yellow} 0 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & \cellcolor{yellow} 2 & 1 & 0 & 2 & 1 & 2 & 0 & 2 & 0 & 1 & 2 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & \cellcolor{yellow} 2 & 0 & 1 & 0 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 2 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 2 & 1 & 2 & 0 & 2 & 0 & 1 & 2 & 0 & 0 & \cellcolor{yellow} 0 & 0 & 0 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 1 & 2 & 0 & 1 & 0 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 2 & 0 & 1 & 2 & 1 & 2 & 0 & 2 & 0 & 1 & 2 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 2 & 0 & 1 & 0 & 0 & 1 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 2 & 0 & \cellcolor{yellow} 0 & 2 & 1 & 2 & 0 & \cellcolor{yellow} 3 & 0 & 1 & 2 & 0 & 0 & \cellcolor{yellow} 1 & 1 & 0 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 1 & \cellcolor{yellow} 1 & 0 & 1 & 0 & 0 & 1 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 2 & 0 & 0 & \cellcolor{yellow} 1 & 1 & 2 & 0 & 3 & 0 & 1 & \cellcolor{yellow} 1 & \cellcolor{yellow} 1 & 0 & 1 & \cellcolor{yellow} 0 & 0 \tabularnewline
+\hline
+Proceso1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & 1 & 0 & 0 & 1 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 2 & 0 & 0 & 1 & \cellcolor{yellow} 2 & 2 & 0 & 3 & 0 & \cellcolor{yellow} 0 & 1 & 1 & 0 & 1 & 0 & \cellcolor{yellow} 1 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & \cellcolor{yellow} 1 & 1 & 0 & 0 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 0 & 0 & 1 & 1 & 0 & 0 & 2 & 0 & 0 & 1 & 2 & 2 & 0 & 3 & 0 & 0 & 1 & 1 & 0 & 1 & 0 & \cellcolor{yellow} 0 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 0 & 0 & 0 & 1 & 0 & 0 & 1 & 1 & 0 & 0 & 2 & 0 & 0 & 1 & 2 & 2 & 0 & 3 & 0 & 0 & 1 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 1 & \cellcolor{yellow} 1 & 0 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & \cellcolor{yellow} 0 & \cellcolor{yellow} 2 & 1 & 0 & 0 & 0 & 1 & 0 & 0 & 1 & \cellcolor{yellow} 0 & 0 & \cellcolor{yellow} 1 & 2 & 0 & 0 & \cellcolor{yellow} 2 & 2 & 2 & 0 & 3 & 0 & 0 & 1 & 0 & 1 & 1 & \cellcolor{yellow} 0 & 0 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 2 & 1 & 0 & 0 & 0 & \cellcolor{yellow} 0 & 0 & 0 & 1 & 0 & 0 & 1 & 2 & 0 & 0 & 2 & 2 & \cellcolor{yellow} 3 & 0 & 3 & 0 & 0 & 1 & 0 & 1 & 1 & 0 & \cellcolor{yellow} 1 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 2 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & \cellcolor{yellow} 0 & 2 & \cellcolor{yellow} 1 & 0 & 2 & 2 & 3 & 0 & 3 & 0 & 0 & 1 & 0 & 1 & 1 & \cellcolor{yellow} 1 & 1 \tabularnewline
+\hline
+Proceso1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & \cellcolor{yellow} 0 & 0 & 2 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 1 & 0 & 2 & 2 & 3 & \cellcolor{yellow} 1 & 3 & 0 & 0 & 1 & 0 & 1 & 1 & \cellcolor{yellow} 0 & 1 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & \cellcolor{yellow} 1 & 2 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 1 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 2 & 2 & 3 & 1 & 3 & 0 & 0 & 1 & 0 & 1 & \cellcolor{yellow} 0 & 0 & 1 \tabularnewline
+\hline
+Proceso1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 1 & 2 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 1 & 0 & 1 & 2 & 2 & 3 & \cellcolor{yellow} 0 & 3 & \cellcolor{yellow} 1 & 0 & 1 & 0 & 1 & 0 & \cellcolor{yellow} 1 & 1 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 1 & 0 & \cellcolor{yellow} 0 & 2 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 1 & 0 & 1 & \cellcolor{yellow} 1 & 2 & 3 & 0 & 3 & 1 & 0 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 1 & 0 & \cellcolor{yellow} 0 & 1 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 2 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 1 & 0 & \cellcolor{yellow} 0 & 1 & 2 & 3 & 0 & \cellcolor{yellow} 4 & 1 & 0 & 0 & 1 & 1 & \cellcolor{yellow} 1 & 0 & 1 \tabularnewline
+\hline
+Proceso1 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 0 & 0 & 0 & 2 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 1 & 0 & 0 & 1 & 2 & 3 & 0 & 4 & 1 & 0 & 0 & 1 & 1 & \cellcolor{yellow} 0 & 0 & 1 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 2 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 1 & 0 & 0 & 1 & 2 & 3 & 0 & 4 & 1 & 0 & 0 & \cellcolor{yellow} 0 & \cellcolor{yellow} 2 & 0 & \cellcolor{yellow} 1 & 1 \tabularnewline
+\hline
+Proceso1 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 2 & 0 & \cellcolor{yellow} 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & \cellcolor{yellow} 2 & 0 & 0 & 1 & 2 & 3 & 0 & 4 & 1 & 0 & 0 & 0 & 2 & \cellcolor{yellow} 1 & 1 & 1 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & \cellcolor{yellow} 1 & \cellcolor{yellow} 1 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 2 & 0 & 0 & \cellcolor{yellow} 2 & 2 & 3 & 0 & 4 & 1 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 1 & \cellcolor{yellow} 0 & 1 \tabularnewline
+\hline
+Proceso1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 1 & 1 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 2 & 0 & 0 & 2 & 2 & 3 & 0 & 4 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 0 & 0 & 1 & 1 & 0 & \cellcolor{yellow} 0 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 1 & 1 & 1 & 0 & 0 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 2 & 0 & 0 & 2 & 2 & 3 & 0 & 4 & 0 & 1 & 0 & 0 & 1 & 1 & \cellcolor{yellow} 1 & 0 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 2 & \cellcolor{yellow} 0 & 1 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & \cellcolor{yellow} 0 & 0 & 0 & \cellcolor{yellow} 1 & 2 & 0 & 0 & 2 & 2 & 3 & 0 & 4 & 0 & 1 & 0 & 0 & 1 & 1 & \cellcolor{yellow} 0 & 0 \tabularnewline
+\hline
+Proceso1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 2 & 0 & 1 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 2 & 0 & 0 & 2 & \cellcolor{yellow} 3 & 3 & 0 & 4 & 0 & \cellcolor{yellow} 0 & 0 & 0 & 1 & 1 & 0 & \cellcolor{yellow} 1 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 2 & 0 & \cellcolor{yellow} 2 & 0 & 0 & 0 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 1 & 2 & 0 & 0 & 2 & 3 & 3 & 0 & 4 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & \cellcolor{yellow} 0 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 2 & 0 & 2 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 0 & 2 & \cellcolor{yellow} 1 & 0 & 2 & 3 & 3 & 0 & 4 & 0 & 0 & 0 & 0 & 1 & 1 & \cellcolor{yellow} 1 & 0 \tabularnewline
+\hline
+Proceso1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & \cellcolor{yellow} 1 & 0 & 2 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 1 & 0 & 2 & 3 & 3 & \cellcolor{yellow} 1 & 4 & 0 & 0 & 0 & 0 & 1 & 1 & \cellcolor{yellow} 0 & 0 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & 2 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & 2 & 3 & \cellcolor{yellow} 4 & 1 & 4 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & \cellcolor{yellow} 1 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & \cellcolor{yellow} 1 & 2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 2 & 3 & 4 & 1 & 4 & 0 & 0 & 0 & 0 & 1 & \cellcolor{yellow} 0 & 0 & 1 \tabularnewline
+\hline
+Proceso1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 1 & 2 & 3 & 4 & \cellcolor{yellow} 0 & 4 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 1 & 0 & \cellcolor{yellow} 1 & 1 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 1 & 1 & \cellcolor{yellow} 2 & \cellcolor{yellow} 1 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 1 & \cellcolor{yellow} 3 & 3 & 4 & 0 & 4 & 1 & 0 & 0 & 0 & \cellcolor{yellow} 0 & 0 & \cellcolor{yellow} 0 & 1 \tabularnewline
+\hline
+Proceso2 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 2 & 1 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & \cellcolor{yellow} 0 & 3 & 3 & 4 & 0 & \cellcolor{yellow} 5 & 1 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 1 \tabularnewline
+\hline
+Proceso1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 1 & \cellcolor{yellow} 2 & 2 & 1 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 3 & 3 & 4 & 0 & 5 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 1 & 0 & \cellcolor{yellow} 0 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 1 & 2 & 2 & 1 & 0 & 0 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 3 & 3 & 4 & 0 & 5 & 0 & 1 & 0 & 0 & 0 & 1 & \cellcolor{yellow} 1 & 0 \tabularnewline
+\hline
+Proceso1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 1 & 2 & 2 & 1 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 3 & \cellcolor{yellow} 4 & 4 & 0 & 5 & 0 & \cellcolor{yellow} 0 & 0 & 0 & 0 & 1 & 1 & \cellcolor{yellow} 1 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 2 & 2 & \cellcolor{yellow} 2 & 0 & 0 & 0 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 3 & 4 & 4 & 0 & 5 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & \cellcolor{yellow} 0 \tabularnewline
+\hline
+Proceso1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 2 & \cellcolor{yellow} 1 & 2 & 2 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 0 & 0 & 0 & 3 & 4 & 4 & \cellcolor{yellow} 1 & 5 & 0 & 0 & 0 & 0 & 0 & 1 & \cellcolor{yellow} 0 & 0 \tabularnewline
+\hline
+Proceso3 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 2 & 1 & 2 & 2 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 3 & 4 & \cellcolor{yellow} 5 & 1 & 5 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & \cellcolor{yellow} 1 \tabularnewline
+\hline
+Proceso1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 0 & 2 & 1 & 2 & 2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 3 & 4 & 5 & \cellcolor{yellow} 0 & 5 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 1 & \cellcolor{yellow} 1 & 1 \tabularnewline
+\hline
+Proceso1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 0 & 2 & \cellcolor{yellow} 2 & 2 & 2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 3 & 4 & 5 & 0 & 5 & \cellcolor{yellow} 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 1 & 1 & \cellcolor{yellow} 0 \tabularnewline
+\hline
+Proceso1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \cellcolor{yellow} 1 & 0 & 0 & 0 & 0 & 2 & 2 & 2 & 2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 3 & \cellcolor{yellow} 5 & 5 & 0 & 5 & 0 & \cellcolor{yellow} 0 & 0 & 0 & 0 & 1 & 1 & \cellcolor{yellow} 1 \tabularnewline
+\hline
+\end{tabular}
+\end{adjustbox}
+\restoregeometry
+\newpage

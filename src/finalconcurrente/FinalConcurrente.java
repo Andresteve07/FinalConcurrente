@@ -19,25 +19,32 @@ public class FinalConcurrente {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args){
         // TODO code application logic here
         PanelControl panel=new PanelControl();
         VentanaPanel ventana = new VentanaPanel("Panel de control de Simulación de Celda Flexible",panel);
         ventana.mostrar();
-        Monitor monitor=new Monitor("matrizIncidencia.txt","marcaInicial.txt");
-        Proceso p1 = new Proceso("Proceso_1",monitor);
-        Proceso p2 = new Proceso("Proceso_2",monitor);
-        Proceso p3 = new Proceso("Proceso_3",monitor);
+        final Monitor monitor=new Monitor("matrizIncidencia.txt","marcaInicial.txt","SalidaGral.html");
+        Proceso p1 = new Proceso("Proceso1",monitor);
+        Proceso p2 = new Proceso("Proceso2",monitor);
+        Proceso p3 = new Proceso("Proceso3",monitor);
         Actualizador actualizador;
         try {
             actualizador = new Actualizador(panel);
+             Runtime.getRuntime().addShutdownHook(new Thread() {
+          @Override
+          public void run() {
+            // Log shutdown and close all resources
+            monitor.finalizarArchivo();
+          }
+      });
             actualizador.start();
+            p1.start();
+            p2.start();
+            p3.start();
         } catch (IOException ex) {
             Logger.getLogger(FinalConcurrente.class.getName()).log(Level.SEVERE, null, ex);
         }
-        p1.start();
-        p2.start();
-        p3.start();
     }
     
 }
